@@ -466,12 +466,12 @@ var BIGRIVER = {
 		if(this.aSkybox) this.Scene.remove(this.aSkybox);
 
 		var aCubeMap = THREE.ImageUtils.loadTextureCube([
-		  'assets/img/'+type+'0004.jpg',
-		  'assets/img/'+type+'0002.jpg',
-		  'assets/img/'+type+'0006.jpg',
-		  'assets/img/'+type+'0005.jpg',
-		  'assets/img/'+type+'0001.jpg',
-		  'assets/img/'+type+'0003.jpg'
+		  'assets/img/000'+type+.jpg',
+		 // 'assets/img/'+type+'0002.jpg',
+		 // 'assets/img/'+type+'0006.jpg',
+		 // 'assets/img/'+type+'0005.jpg',
+		//  'assets/img/'+type+'0001.jpg',
+		//  'assets/img/'+type+'0003.jpg'
 		], {}, $.proxy(this.loadCallback, this));
 
 		aCubeMap.format = THREE.RGBFormat;

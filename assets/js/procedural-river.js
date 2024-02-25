@@ -466,7 +466,7 @@ var BIGRIVER = {
 		if(this.aSkybox) this.Scene.remove(this.aSkybox);
 
 		var aCubeMap = THREE.ImageUtils.loadTextureCube([
-		  'assets/img/000'+type+.jpg',
+		  'assets/img/000'+type+'.jpg',
 		 // 'assets/img/'+type+'0002.jpg',
 		 // 'assets/img/'+type+'0006.jpg',
 		 // 'assets/img/'+type+'0005.jpg',
